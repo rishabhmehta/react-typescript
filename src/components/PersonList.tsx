@@ -5,6 +5,8 @@ type PersonListProps = {
   }[]
 }
 
+// This is a test commit to check global alias
+
 export const PersonList = (props: PersonListProps) => {
   return (
     <div>
