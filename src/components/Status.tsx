@@ -9,7 +9,7 @@ export const Status = (props: StatusProps) => {
   else if (props.status === "error") message = "Error fetching data"
   return (
     <div>
-      <h2>Status = {message}</h2>
+      <h2>Status - {message}</h2>
     </div>
   )
 }
